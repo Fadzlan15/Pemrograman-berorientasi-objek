@@ -1,0 +1,27 @@
+print("Membuat Jajargenjang")
+for i in range(5,0,-1):
+    print(' '*(i-1)+'*'*(5-i)+'*'*i)   
+===============================================================================================================    
+    
+print(" Membuat Segitiga Kebawah")
+A = 5
+for i in reversed (range(1, A+1)):
+    print(i*"*")
+===============================================================================================================    
+    
+print('Menghitung luas segitiga')
+print('==============================')
+alas = input('masukan alas: ')
+tinggi = input('masukan tinggi: ')
+L = 0.5 * int(alas) * int(tinggi)
+print('Luas segitiga dengan alas: {} dan tinggi: {} adalah {}'.format(alas, tinggi, L))
+===============================================================================================================
+
+print('Menghitung Volume Balok')
+print('==============================')
+panjang = input('masukan panjang: ')
+lebar = input('masukan lebar: ')
+tinggi = input('masukan tinggi:')
+L = int(panjang) * int(lebar) * int(tinggi)
+print('Volume Balok dengan panjang: {} dan lebar: {} tinggi: {} adalah {}'.format(panjang, lebar, tinggi, L))
+===============================================================================================================
