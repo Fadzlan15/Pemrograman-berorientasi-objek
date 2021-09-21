@@ -1,7 +1,0 @@
-print('Menghitung Volume Balok')
-print('==============================')
-panjang = input('masukan panjang: ')
-lebar = input('masukan lebar: ')
-tinggi = input('masukan tinggi:')
-L = int(panjang) * int(lebar) * int(tinggi)
-print('Volume Balok dengan panjang: {} dan lebar: {} tinggi: {} adalah {}'.format(panjang, lebar, tinggi, L))
